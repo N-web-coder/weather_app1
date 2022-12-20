@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;box-sizing: border-box;
+}
+body{
+    background-image: url("https://images.unsplash.com/photo-1558486012-817176f84c6d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8d2VhdGhlciUyMGFwcHxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=400&q=60");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+.mee{
+    width: 190px;
+    background-color: rgb(240, 239, 239);
+    border-radius: 50px;
+    padding: 5px;
+    margin: 30px;
+    text-align: center;
+    background-color: #439A97;
+}
+.fir{
+    background-color: #076d7a;
+    height: 66vh;
+    width: 60vw;
+    margin: 60px auto;
+    text-align: center;
+    border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    transition: transform 0.5s;
+}
+.fir:hover{
+    transform: translateY(-10px);
+    background-color: rgb(3, 135, 21);
+}
+input{
+    background-color: #fa2e2e;
+    color: black;
+    margin: 30px;
+    width: 30vw;
+    text-align: center;
+    font-weight: 600px;
+    font-size: 1.1rem;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    border-radius: 10px;
+    border: none;
+    height: 35px;
+    
+}
+input:hover{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+input:focus{
+    outline: none;
+}
+button{
+    background-color: #f01717;
+    height: 30px;
+    width: 70px;
+    border-radius: 10px;
+    font-size: 0.9rem;
+    box-shadow: rgba(0, 0, 0, 0.35) 5px 6px 15px;
+    border: none;
+}
+button:hover{
+    height: 32px;
+    width: 72px;
+    box-shadow: rgba(4, 39, 194, 0.35) 5px 6px 5px;
+}
+.box{
+    background-color: #91ba69;
+    border-radius: 10px;
+    width: 40vw;
+    height: 35vh;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    margin: 2.0rem auto;
+    padding: 10px;
+    line-height: 40px;
+}
+.box:hover{
+    display: block;
+}
